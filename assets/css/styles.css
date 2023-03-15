@@ -1,7 +1,6 @@
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
-    Geneva, Verdana, sans-serif;
+    font-family:monospace;
     
     
 }
@@ -16,10 +15,10 @@ body {
 
 
 .header{
-    height: 2em;
-    padding: 3em;
-    font-size: 2em;
-    background-image: url("https://images.squarespace-cdn.com/content/v1/5d5d664b04bf1c00017e13c4/1574172620372-SP2E2DNKY3PILEBXTCD8/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fKTrY37saURwPBw8fO2esROAxn-RKSrlQamlL27g22X2A/Simplicity-Burger-banner.jpg?format=2500w");
+    height: 7rem;
+    padding: 3rem;
+    font-size: 2rem;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5d5d664b04bf1c00017e13c4/1574172620372-SP2E2DNKY3PILEBXTCD8/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fKTrY37saURwPBw8fO2esROAxn-RKSrlQamlL27g22X2A/Simplicity-Burger-banner.jpg?format=2500w" ) ;
     background-size: cover;
     background-position: center;
 }
@@ -27,25 +26,35 @@ body {
 .header h1{
     margin: 0px;
     font-weight: 400;
+
+    
 }
 .products {
     width: 80%;
     margin: auto;
+
 }
 .products td {
     width: 50%;
-    padding: 3em;
+    height:20rem;
+    padding: 2.5rem;
+    
+
 }
+
 .products img {
-    width: 70%;
-    height:18rem;
+   width: 100%;
+   height: 100%;
     border: none;
     -webkit-box-shadow: 11px 10px 52px -12px rgba(214,83,214,1);
 -moz-box-shadow: 11px 10px 52px -12px rgba(214,83,214,1);
-box-shadow: 11px 10px 52px -12px rgba(214,83,214,1);  
+box-shadow: 11px 10px 52px -12px rgba(214,83,214,1); 
+object-fit: cover; 
 }
+
+
 .footer{
-    height: 5em;
+    height: 7rem;
     color: #fff;
     text-align: center;
     font-weight:900;
