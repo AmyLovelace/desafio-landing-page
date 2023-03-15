@@ -51,7 +51,20 @@ body {
 box-shadow: 11px 10px 52px -12px rgba(214,83,214,1); 
 object-fit: cover; 
 }
-
+.burger-name{
+    font-size:2rem ;
+    text-align: start;
+    border-bottom: dashed  1px #000;
+}
+.descripcion{
+    font-size: 1.5em;
+    text-align:left;
+    
+}
+.precio{
+    font-size: 1.5em;
+    text-align: right;
+}
 
 .footer{
     height: 7rem;
