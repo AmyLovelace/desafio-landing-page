@@ -1,21 +1,13 @@
-
 body {
     font-family:monospace;
-    
-    
-}
-
-
-body {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     
 }
 
-
-
 .header{
-    height: 7rem;
+    width: 100%;
+    height: 15vh;
     padding: 3rem;
     font-size: 2rem;
     background-image: url("https://images.squarespace-cdn.com/content/v1/5d5d664b04bf1c00017e13c4/1574172620372-SP2E2DNKY3PILEBXTCD8/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fKTrY37saURwPBw8fO2esROAxn-RKSrlQamlL27g22X2A/Simplicity-Burger-banner.jpg?format=2500w" ) ;
@@ -29,48 +21,42 @@ body {
 
     
 }
-.header #find{
-    display:inline-flex;
+#find{
+    display:flex;
     float: right;
-    
+    padding-right: 5vw;   
 
 }
 .header a{
     text-decoration: none;
     color: #fff;
-
-}
-.header p:hover{
-    opacity: 0.7; 
-    cursor: pointer; 
 }
 .header p{
     display:flex;
     float: left;
     color: #fff;
-
 }
-.products {
-    width: 80%;
-    margin: auto;
+.header p:hover{
+    opacity: 0.7; 
+    cursor: pointer; 
+}
 
+.products{
+    align-content: center;
 }
 .products td {
-    width: 50%;
-    height:20rem;
-    padding: 2.5rem;
-    
-
+    padding: 2rem 10rem 1rem 2rem;
+    margin: 0;
 }
 
 .products img {
-   width: 100%;
-   height: 100%;
+    min-width: 30vw;
+    height: 30vh;
     border: none;
     -webkit-box-shadow: 11px 10px 52px -12px rgba(214,83,214,1);
 -moz-box-shadow: 11px 10px 52px -12px rgba(214,83,214,1);
 box-shadow: 11px 10px 52px -12px rgba(214,83,214,1); 
-object-fit: cover; 
+object-fit:cover; 
 }
 .burger-name{
     font-size:2rem ;
