@@ -38,8 +38,9 @@ body {
     float: left;
     color: #fff;
 }
-.header p:hover{
-    opacity: 0.7; 
+.header a:hover{
+    text-shadow: 2px 0 0 #12a334, -2px 0 0 #12a334, 0 2px 0 #12a334, 0 -2px 0 #12a334, 1px 1px #12a334, -1px -1px 0 #12a334 , 1px -1px 0 #12a334, -1px 1px 0 #12a334;
+    opacity: 0.7 ;
     cursor: pointer; 
 }
 
