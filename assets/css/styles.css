@@ -49,9 +49,9 @@ body {
     height: 30vh;
     border: none;
     -webkit-box-shadow: 11px 10px 52px -12px rgba(214,83,214,1);
--moz-box-shadow: 11px 10px 52px -12px rgba(214,83,214,1);
-box-shadow: 11px 10px 52px -12px rgba(214,83,214,1); 
-object-fit:cover; 
+    -moz-box-shadow: 11px 10px 52px -12px rgba(214,83,214,1);
+    box-shadow: 11px 10px 52px -12px rgba(214,83,214,1); 
+    object-fit:cover; 
 }
 .burger-name{
     font-size:2rem ;
