@@ -5,9 +5,9 @@ body {
 }
 .header{
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     padding: 3rem;
-    font-size:2.5em ;
+    font-size:5rem ;
     background-image: url("https://images.squarespace-cdn.com/content/v1/5d5d664b04bf1c00017e13c4/1574172620372-SP2E2DNKY3PILEBXTCD8/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fKTrY37saURwPBw8fO2esROAxn-RKSrlQamlL27g22X2A/Simplicity-Burger-banner.jpg?format=2500w" ) ;
     background-size: cover;
     background-position: center;
@@ -54,20 +54,20 @@ body {
     object-fit:cover; 
 }
 .burger-name{
-    font-size:2rem ;
+    font-size:6rem ;
     text-align: start;
     border-bottom: dashed  1px #000;
 }
 .descripcion{
-    font-size: 1.5em;
+    font-size: 4rem;
     text-align:left;    
 }
 .precio{
-    font-size: 1.5em;
+    font-size: 4rem;
     text-align: right;
 }
 .footer{
-    height: 7rem;
+    height: 15rem;
     color: #fff;
     text-align: center;
     font-weight:900;
@@ -79,11 +79,12 @@ body {
 }
 .footer h1{
     font-weight: 300;
+    font-size: 4rem;
 }
 .fa-brands {
     padding: 20px;
-    font-size: 30px;
-    width: 30px;
+    font-size: 3rem;
+    width:3vw;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
